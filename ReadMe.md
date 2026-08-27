@@ -14,7 +14,7 @@ gem update --system
 ```
 
 ```ruby
-gem colorize optparse clipboard
+gem install colorize optparse clipboard
 ```
 
 ### 3 - Git Bash
