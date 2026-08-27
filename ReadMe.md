@@ -14,7 +14,7 @@ gem update --system
 ```
 
 ```ruby
-gem install colorize optparse clipboard
+gem install colorize optparse clipboard ffi
 ```
 
 ### 3 - Git Bash
@@ -65,11 +65,6 @@ https://github.com/StrawberryPerl/Perl-Dist-Strawberry
 or
 ```powershell
 winget install --id StrawberryPerl.StrawberryPerl -e --source winget
-```
-
-### Fix 2 - As per [discussion](https://forum.obsidian.md/t/bible-study-kit-in-obsidian-scripts-help-and-support/31069/15), if it doesn't work try
-```ruby
-gem ffi
 ```
 # Additional
 ### [If you ever want to uninstall Ruby, remove installed gem first](https://stackoverflow.com/a/49960935)
