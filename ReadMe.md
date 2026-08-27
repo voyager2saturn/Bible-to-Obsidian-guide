@@ -1,16 +1,18 @@
-# Full Bible Study
-https://notes.joschua.io/60-Outputs/62-Projects/Bible-Study-Kit/
 # GitHub Repositories
 [Joschua Glau/BibleGateway-to-Obsidian](https://github.com/selfire1/BibleGateway-to-Obsidian) - Download the release files
 
 [Jonathan Clark/BibleGateway-to-Markdown](https://github.com/jgclark/BibleGateway-to-Markdown) - Download and copy only "bg2md.rb" to the same folder
 
 # Install 
-### Ruby Gems
+### Ruby
 https://rubyinstaller.org/downloads/
 
-### Install components as per [Jonathan Clark](https://github.com/jgclark/BibleGateway-to-Markdown#installation)
+### Install RubyGem components as per [Jonathan Clark](https://github.com/jgclark/BibleGateway-to-Markdown#installation)
 These can be run in any terminal
+```ruby
+gem update --system
+```
+
 ```ruby
 gem colorize optparse clipboard
 ```
@@ -33,10 +35,12 @@ https://git-scm.com/
 ```powershell
 Get-Command bash
 ```
-If "C:\WINDOWS\system32\bash.exe" is shown it suggests WSL (Windows Subsystem for Linux) not GitBash.
-If "C:\Program Files\**Git\bin\bash.exe**" is shown it is GitBash.
+If "C:\WINDOWS\system32\bash.exe" is shown it suggests WSL (Windows Subsystem for Linux) not Git Bash. **You need to be on Git Bash.**
+
+If "C:\Program Files\Git\bin\bash.exe" is shown it is Git Bash and you can directly start running the commands `bg2obs.sh -i -v NET`
 
 **Solution 1**
+
 Open "Git Bash". Use Windows search (Git Bash) or "C:\Program Files\Git\git-bash.exe".
 <img width="942" height="622" alt="image" src="https://github.com/user-attachments/assets/000ee307-d0c0-45a2-b480-4cb2504854c4" />
 
@@ -49,11 +53,8 @@ bash bg2obs.sh -i -v NET
 ```
 
 # Try if all fails
-### Method 1 - Check if it exists in bash terminal
-```
-sed --version
-```
-If it doesn't exist install Perl Strawberry (use any 1)
+### Fix 1 - Perl Strawberry
+Install Perl Strawberry (use any 1)
 
 https://www.perl.org/get.html
 
@@ -66,11 +67,15 @@ or
 winget install --id StrawberryPerl.StrawberryPerl -e --source winget
 ```
 
-### As per [discussion](https://forum.obsidian.md/t/bible-study-kit-in-obsidian-scripts-help-and-support/31069/15), if it doesn't work try
+### Fix 2 - As per [discussion](https://forum.obsidian.md/t/bible-study-kit-in-obsidian-scripts-help-and-support/31069/15), if it doesn't work try
 ```ruby
 gem ffi
 ```
-# [To uninstall gem](https://stackoverflow.com/a/49960935)
+# Additional
+### Full Bible Study
+https://notes.joschua.io/60-Outputs/62-Projects/Bible-Study-Kit/
+
+### [To uninstall gem](https://stackoverflow.com/a/49960935)
 ```ruby
 gem uninstall -aIx
 ```
