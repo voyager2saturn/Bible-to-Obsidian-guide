@@ -1,41 +1,38 @@
 # Full Bible Study
 https://notes.joschua.io/60-Outputs/62-Projects/Bible-Study-Kit/
 # GitHub Repositories
-[Joschua Glau/BibleGateway-to-Obsidian](https://github.com/selfire1/BibleGateway-to-Obsidian)
-[Jonathan Clark/BibleGateway-to-Markdown](https://github.com/jgclark/BibleGateway-to-Markdown)
+[Joschua Glau/BibleGateway-to-Obsidian](https://github.com/selfire1/BibleGateway-to-Obsidian) - Download the release files
+
+[Jonathan Clark/BibleGateway-to-Markdown](https://github.com/jgclark/BibleGateway-to-Markdown) - Download and copy only "bg2md.rb" to the same folder
 
 # Install 
-**RubyGems**
-
+### Ruby Gems
 https://rubyinstaller.org/downloads/
 
-or
-```
-winget search RubyInstallerTeam.RubyWithDevKit
-```
-Use the above command to get the latest version id
-```powershell
-winget install RubyInstallerTeam.RubyWithDevKit.4.0 -e --source winget
-```
-
-Install components as per [Jonathan Clark](https://github.com/jgclark/BibleGateway-to-Markdown#installation). Can be run in any terminal : 
+### Install components as per [Jonathan Clark](https://github.com/jgclark/BibleGateway-to-Markdown#installation)
+These can be run in any terminal
 ```ruby
 gem colorize optparse clipboard
 ```
+
 # Bash Terminal
-## Check 1
+### Check 1
 Run commands-
 ```bash
 ruby -v
 which ruby
 ```
-If second command is not working follow the steps below.
+If second command is not working follow the steps below to install a Bash terminal.
 
-Check which bash is being used -
+### Install Git Bash
+https://git-scm.com/
+
+### Check which bash is being used
 ```powershell
 Get-Command bash
 ```
-C:\WINDOWS\system32\bash.exe suggests WSL not GitBash
+If "C:\WINDOWS\system32\bash.exe" is shown it suggests WSL (Windows Subsystem for Linux) not GitBash.
+If "C:\Program Files\**Git\bin\bash.exe**" is shown it is GitBash.
 
 **Solution 1**
 ```bash
@@ -43,17 +40,16 @@ C:\WINDOWS\system32\bash.exe suggests WSL not GitBash
 ```
 
 **Solution 2**
-Use Git Bash CLI
+Open "Git Bash". Use Windows search (Git Bash) or "C:\Program Files\Git\git-bash.exe".
 ```
 bash bg2obs.sh -i -v NET
 ```
 # Try if all fails
-Check if it exists in bash terminal
+### Method 1 - Check if it exists in bash terminal
 ```
 sed --version
 ```
-If it doesn't exist install -
-**Perl Strawberry (use any 1 of the 3 links)**
+If it doesn't exist install Perl Strawberry (use any 1)
 
 https://www.perl.org/get.html
 
@@ -66,12 +62,11 @@ or
 winget install --id StrawberryPerl.StrawberryPerl -e --source winget
 ```
 
-As per [discussion](https://forum.obsidian.md/t/bible-study-kit-in-obsidian-scripts-help-and-support/31069/15), if it doesn't work try
+### As per [discussion](https://forum.obsidian.md/t/bible-study-kit-in-obsidian-scripts-help-and-support/31069/15), if it doesn't work try
 ```ruby
 gem ffi
 ```
-# To uninstall gem
-[Source of fix](https://stackoverflow.com/a/49960935)
+# [To uninstall gem](https://stackoverflow.com/a/49960935)
 ```ruby
 gem uninstall -aIx
 ```
