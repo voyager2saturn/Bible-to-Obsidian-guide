@@ -19,7 +19,6 @@ gem colorize optparse clipboard
 
 ### Install Git Bash
 https://git-scm.com/
-<img width="1257" height="887" alt="image" src="https://github.com/user-attachments/assets/531309fa-3cb5-4b23-b8c1-f552d44588bf" />
 
 # Bash Terminal
 ### Check 1
@@ -40,8 +39,10 @@ If "C:\Program Files\Git\bin\bash.exe" is shown it is Git Bash and you can direc
 
 **Solution 1**
 
-Open "Git Bash". Use Windows search (Git Bash) or "C:\Program Files\Git\git-bash.exe".
-<img width="942" height="622" alt="image" src="https://github.com/user-attachments/assets/000ee307-d0c0-45a2-b480-4cb2504854c4" />
+Open "Git Bash" using Windows search or "C:\Program Files\Git\git-bash.exe".
+
+<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/9ef3aec6-1cfb-4d5f-9391-a3393b7ca867" />
+
 
 ```
 bash bg2obs.sh -i -v NET
