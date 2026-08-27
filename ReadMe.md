@@ -4,10 +4,10 @@
 [Jonathan Clark/BibleGateway-to-Markdown](https://github.com/jgclark/BibleGateway-to-Markdown) - Download and copy only "bg2md.rb" to the same folder
 
 # Install 
-### Ruby
+### 1 - Ruby
 https://rubyinstaller.org/downloads/
 
-### Install RubyGem components as per [Jonathan Clark](https://github.com/jgclark/BibleGateway-to-Markdown#installation)
+### 2 - RubyGem components as per [Jonathan Clark](https://github.com/jgclark/BibleGateway-to-Markdown#installation)
 These can be run in any terminal
 ```ruby
 gem update --system
@@ -17,7 +17,7 @@ gem update --system
 gem colorize optparse clipboard
 ```
 
-### Install Git Bash
+### 3 - Git Bash
 https://git-scm.com/
 
 # Bash Terminal
