@@ -17,6 +17,10 @@ gem update --system
 gem colorize optparse clipboard
 ```
 
+### Install Git Bash
+https://git-scm.com/
+<img width="1257" height="887" alt="image" src="https://github.com/user-attachments/assets/531309fa-3cb5-4b23-b8c1-f552d44588bf" />
+
 # Bash Terminal
 ### Check 1
 Run commands-
@@ -24,12 +28,7 @@ Run commands-
 ruby -v
 which ruby
 ```
-If second command is not working follow the steps below to install a Bash terminal.
-
-### Install Git Bash
-https://git-scm.com/
-<img width="1257" height="887" alt="image" src="https://github.com/user-attachments/assets/531309fa-3cb5-4b23-b8c1-f552d44588bf" />
-
+If second command `which ruby` is not working follow the steps below.
 
 ### Check which bash is being used
 ```powershell
