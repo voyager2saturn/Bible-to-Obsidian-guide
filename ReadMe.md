@@ -26,6 +26,8 @@ If second command is not working follow the steps below to install a Bash termin
 
 ### Install Git Bash
 https://git-scm.com/
+<img width="1257" height="887" alt="image" src="https://github.com/user-attachments/assets/531309fa-3cb5-4b23-b8c1-f552d44588bf" />
+
 
 ### Check which bash is being used
 ```powershell
@@ -35,15 +37,17 @@ If "C:\WINDOWS\system32\bash.exe" is shown it suggests WSL (Windows Subsystem fo
 If "C:\Program Files\**Git\bin\bash.exe**" is shown it is GitBash.
 
 **Solution 1**
+Open "Git Bash". Use Windows search (Git Bash) or "C:\Program Files\Git\git-bash.exe".
+<img width="942" height="622" alt="image" src="https://github.com/user-attachments/assets/000ee307-d0c0-45a2-b480-4cb2504854c4" />
+
+```
+bash bg2obs.sh -i -v NET
+```
+**Solution 2**
 ```bash
 & "C:\Program Files\Git\bin\bash.exe" bg2obs.sh -i -v NET
 ```
 
-**Solution 2**
-Open "Git Bash". Use Windows search (Git Bash) or "C:\Program Files\Git\git-bash.exe".
-```
-bash bg2obs.sh -i -v NET
-```
 # Try if all fails
 ### Method 1 - Check if it exists in bash terminal
 ```
