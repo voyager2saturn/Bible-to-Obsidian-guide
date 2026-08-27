@@ -72,10 +72,7 @@ winget install --id StrawberryPerl.StrawberryPerl -e --source winget
 gem ffi
 ```
 # Additional
-### Full Bible Study
-https://notes.joschua.io/60-Outputs/62-Projects/Bible-Study-Kit/
-
-### [To uninstall gem](https://stackoverflow.com/a/49960935)
+### [If you ever want to uninstall Ruby, remove installed gem first](https://stackoverflow.com/a/49960935)
 ```ruby
 gem uninstall -aIx
 ```
