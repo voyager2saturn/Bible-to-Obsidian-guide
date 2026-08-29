@@ -32,9 +32,9 @@ Run commands-
 ruby -v
 which ruby
 ```
-If second command `which ruby` is not working follow the steps below and check again.
+If second command `which ruby` is not working follow the steps below and check again after using one of the solution.
 
-### Check which bash is being used
+### Check 2 - Which bash is being used
 ```powershell
 Get-Command bash
 ```
