@@ -34,13 +34,15 @@ which ruby
 ```
 If second command `which ruby` is not working follow the steps below and check again after using one of the solution.
 
-### Check 2 - Which bash is being used
+### Check 2 - Which bash is being used (optional)
+Open Powershell terminal
 ```powershell
 Get-Command bash
 ```
 If "C:\WINDOWS\system32\bash.exe" is shown it suggests WSL (Windows Subsystem for Linux) not Git Bash. **You need to be on Git Bash.**
 
 If "C:\Program Files\Git\bin\bash.exe" is shown it is Git Bash and you can directly start running the commands `bg2obs.sh -i -v NET`
+
 ### Solution
 #### Solution 1 - Using Git Bash Terminal
 
